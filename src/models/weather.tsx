@@ -34,5 +34,11 @@ export interface WeatherResponse {
         country: string;
         sunrise: number;
         sunset: number;
-    }
-}
+    };
+    timezone: number;
+    id: number;
+    name: string;
+    cod: number;
+};
+
+export type Weather = Pick<WeatherResponse, "name" | "main" | "weather">;
