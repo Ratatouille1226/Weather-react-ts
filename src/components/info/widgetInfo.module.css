@@ -1,0 +1,11 @@
+.widgetInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.widgetInfoFeels, .widgetInfoTemp, .widgetInfoHum {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
